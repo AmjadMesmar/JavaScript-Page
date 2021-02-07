@@ -30,7 +30,12 @@ function AGE(){
 
 
 	if (Age == "Unknown"){
-document.write("Tell me your age,come on now!");
+document.write("Tell me your age,Come on now!");
+}
+
+else if ((Age <10 )|| (Age > 100)){
+	alert("Am I suppose to believe that!?")
+document.write("Age: Wrong input.");
 }
 
 else if (Age != null){

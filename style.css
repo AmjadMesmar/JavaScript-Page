@@ -11,3 +11,14 @@ background-image:url(Images/background.gif);
 
 
 }
+
+#codes {
+
+position: absolute;
+right: 40px;
+top: 287px;
+
+background-color: black;
+color: green;
+
+}
