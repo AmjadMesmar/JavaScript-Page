@@ -20,7 +20,15 @@ function AGE(){
 
 	var Age = prompt("How old are you?" , "Unknown");
 
-document.write("Your Age : " + Age);
+
+	if (Age == "Unknown"){
+document.write("Tell me your age,come on now!");
+}
+
+else if (Age != null){
+	document.write("Your Age : " + Age);
+
+}
   
 }
 
