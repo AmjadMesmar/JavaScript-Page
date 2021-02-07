@@ -65,7 +65,7 @@ else if (OC != null) {
 
 function Alerts(){
 
-  if (Pname == "Sans"){
+  if ((Pname == "Sans" )|| (Pname == "Nobody")){
 	alert("Enjoy your stay, whoever you are..");
 }
 
