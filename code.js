@@ -1,12 +1,20 @@
-function Wellcome(){
 
-	var Pname = prompt("Please enter your name", "Nobody");
+var Pname = prompt("Please enter your name", "Nobody");
+
+function Wellcome(){
 
 
 
  if (Pname == "Nobody") {
   document.getElementById("welcome").innerHTML =
   "Hey! tell me your name!";}
+
+
+ else if(Pname == "Sans"){
+  alert("Are you now?");
+document.getElementById("welcome").innerHTML =
+  "Name: Unknown";}
+
 
 else if (Pname != null) {
   document.getElementById("welcome").innerHTML =
@@ -49,3 +57,14 @@ else if (OC != null) {
 
 
 }
+
+function Alerts(){
+
+  if (Pname == "Sans"){
+	alert("Enjoy your stay, whoever you are..");
+}
+
+else {
+
+	alert("Enjoy your stay, " + Pname +"!")
+} }
