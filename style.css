@@ -24,3 +24,13 @@ background-color: black;
 color: green;
 
 }
+
+#bnt {
+
+background-color: black;
+color: green;
+
+position:  absolute;
+right: 50px;
+
+}
