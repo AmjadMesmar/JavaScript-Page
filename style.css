@@ -27,14 +27,19 @@ color: green;
 
 }
 
-#bnt {
 
-background-color: black;
-color: green;
+.bnt {
 
 position:  absolute;
 right: 90px;
 top: 401px;
+
+}
+
+.bcol{
+
+background: black;
+color: green;
 
 }
 

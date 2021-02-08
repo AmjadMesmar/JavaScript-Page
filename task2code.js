@@ -32,8 +32,9 @@ function fimages ()
 	for (var i =0; i<inum; i++){
 
 		result = result+ answer;
-
 	}
+
 	document.write(result);
-	
+
+
 }
