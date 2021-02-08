@@ -10,7 +10,7 @@ function Wellcome(){
   "Hey! tell me your name!";}
 
 
- else if(Pname == "Sans"){
+ else if(Pname == "Sans" || Pname == "sans"){
   alert("Are you now?");
 document.getElementById("welcome").innerHTML =
   "Name: Unknown";}
@@ -65,7 +65,7 @@ else if (OC != null) {
 
 function Alerts(){
 
-  if ((Pname == "Sans" )|| (Pname == "Nobody")){
+  if ((Pname == "Sans" )|| (Pname == "Nobody")|| (Pname == "sans" )){
 	alert("Enjoy your stay, whoever you are..");
 }
 
