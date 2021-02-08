@@ -17,8 +17,10 @@ background-size: 100% 667px;
 #codes {
 
 position: absolute;
-right: 40px;
+right: 20px;
 top: 287px;
+
+width: 220px;
 
 background-color: black;
 color: green;
