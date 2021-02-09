@@ -13,7 +13,7 @@ function fimages ()
 	if (question == "Sans") 
 	{
 
-		answer = '<img src="Images/sans.gif"/>'
+		answer = '<img src="../Images/sans.gif"/>'
 
 		//document.write(answer);
 	}
@@ -21,7 +21,7 @@ function fimages ()
 	else if (question == "Papyrus") 
 	{
 
-		answer = '<img src="Images/Papyrus.gif"/>'
+		answer = '<img src="../Images/Papyrus.gif"/>'
 		// document.write(answer);
 
 	}
